@@ -1,0 +1,25 @@
+{
+    "name": "yjx/easy-router",
+    "description": "学习构建路由的练手作, 核心正则\"参考\" nikic/fast-route. 增加了部分语法糖, 同时占位符类型定义中允许使用分组等, 未使用 FastRoute 的分块合并正则表达式方法, 因此不适用于要求性能的项目.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["routing", "router", "路由"],
+    "authors": [
+        {
+            "name": "youjiaxing",
+            "email": "287009007@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EasyRouter\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    }
+}
